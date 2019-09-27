@@ -16,7 +16,6 @@ export class Child2Component implements OnInit {
   constructor(private eventBusService:EventBusService) {
     this.subscription = this.eventBusService.event1Observer$.subscribe((value)=>{
       this.events.push(value+"-"+new Date());
-      console.warn("get event");
       console.info(this.events);
     });
   }
