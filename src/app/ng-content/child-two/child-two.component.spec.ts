@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NoneModeComponent } from './none-mode.component';
+import { ChildTwoComponent } from './child-two.component';
 
-describe('NoneModeComponent', () => {
-  let component: NoneModeComponent;
-  let fixture: ComponentFixture<NoneModeComponent>;
+describe('ChildTwoComponent', () => {
+  let component: ChildTwoComponent;
+  let fixture: ComponentFixture<ChildTwoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NoneModeComponent ]
+      declarations: [ ChildTwoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NoneModeComponent);
+    fixture = TestBed.createComponent(ChildTwoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

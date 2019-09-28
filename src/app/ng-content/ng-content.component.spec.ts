@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ShadowDomModeComponent } from './shadow-dom-mode.component';
+import { NgContentComponent } from './ng-content.component';
 
-describe('ShadowDomModeComponent', () => {
-  let component: ShadowDomModeComponent;
-  let fixture: ComponentFixture<ShadowDomModeComponent>;
+describe('NgContentComponent', () => {
+  let component: NgContentComponent;
+  let fixture: ComponentFixture<NgContentComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ShadowDomModeComponent ]
+      declarations: [ NgContentComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(ShadowDomModeComponent);
+    fixture = TestBed.createComponent(NgContentComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
