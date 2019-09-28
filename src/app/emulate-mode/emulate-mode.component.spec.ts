@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Child11Component } from './child11.component';
+import { EmulateModeComponent } from './emulate-mode.component';
 
-describe('Child11Component', () => {
-  let component: Child11Component;
-  let fixture: ComponentFixture<Child11Component>;
+describe('EmulateModeComponent', () => {
+  let component: EmulateModeComponent;
+  let fixture: ComponentFixture<EmulateModeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ Child11Component ]
+      declarations: [ EmulateModeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(Child11Component);
+    fixture = TestBed.createComponent(EmulateModeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

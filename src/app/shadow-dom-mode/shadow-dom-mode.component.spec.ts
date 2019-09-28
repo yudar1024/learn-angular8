@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DynamicCompComponent } from './dynamic-comp.component';
+import { ShadowDomModeComponent } from './shadow-dom-mode.component';
 
-describe('DynamicCompComponent', () => {
-  let component: DynamicCompComponent;
-  let fixture: ComponentFixture<DynamicCompComponent>;
+describe('ShadowDomModeComponent', () => {
+  let component: ShadowDomModeComponent;
+  let fixture: ComponentFixture<ShadowDomModeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DynamicCompComponent ]
+      declarations: [ ShadowDomModeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DynamicCompComponent);
+    fixture = TestBed.createComponent(ShadowDomModeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
